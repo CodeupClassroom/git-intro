@@ -28,3 +28,9 @@ Version control system (resume.pdf, resumeFINAL.pdf)
 - do new work (create, edit, delete lines of code or files)
 - git add filenameWithTheWork.js
 - git commit -m "explain what this change is"
+
+## Creating and connecting remotes (backup side of things)
+- To have a remote, we need to create a new, empty repository on github
+- To do that, https://github.com/new
+- Name the repo, provide a description, ignore the readme part, and click "Create Repository".
+- Then follow the directions for whether or not you have an existing repo or not.
