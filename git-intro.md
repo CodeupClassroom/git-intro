@@ -6,7 +6,6 @@ Version control system (resume.pdf, resumeFINAL.pdf)
     - time machine     (ability to checkout a commit)
     - parallel universes (branches)
 
-
 ## Key Vocabulary Terms
 - repository: a regular ol' directory where you've done "git init" or "git clone"
 - local repo: the repo on your computer 
@@ -17,10 +16,15 @@ Version control system (resume.pdf, resumeFINAL.pdf)
 - connect a remote: telling a local repo where code should go when you push
 
 ## Workflow
-- "git init" once at the beginning of the project
+- "git init" ONCE at the beginning of the project
 - create a file called index.html and add a bunch of work
 - "git add index.html"
 - "git commit -m 'this is the message that describes the work'"
 - Do new work. Add/remove lines of code, add/remove files
 - "git add about.html"
 - "git commit -m 'created the about me page'"
+
+## workflow loop
+- do new work (create, edit, delete lines of code or files)
+- git add filenameWithTheWork.js
+- git commit -m "explain what this change is"
