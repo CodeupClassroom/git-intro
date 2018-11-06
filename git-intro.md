@@ -8,10 +8,10 @@ Version control system (resume.pdf, resumeFINAL.pdf)
 
 
 Key Vocabulary Terms
-- repository
-- local
-- remote
-- adding
-- commiting
-- pushing
-- connect a remote
+- repository: a regular ol' directory where you've done "git init" or "git clone"
+- local repo: the repo on your computer 
+- remote: a copy of the repo somewhere on the internet (github)
+- adding: specifying which files will be going to the next commit
+- commiting: creating a snapshot in time of changes to lines on files
+- pushing: upload a new commits to your remote repository
+- connect a remote: telling a local repo where code should go when you push
